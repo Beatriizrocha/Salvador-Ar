@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
   margin: 0;
   padding: 0;
@@ -6,13 +6,13 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Banner fixo de horário no topo */
+
 .top-banner {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #3ca768; /* verde vibrante */
+  background-color: #3ca768; 
   color: rgb(2, 0, 0);
   text-align: center;
   padding: 8px 0;
@@ -23,11 +23,11 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Para que o conteúdo não fique escondido atrás do banner */
+
 body {
-  padding-top: 38px; /* ajusta altura do banner + espaço */
+  padding-top: 38px; 
   background-color: #fff;
-  color: #154734; /* Verde escuro */
+  color: #154734;
   line-height: 1.6;
   min-height: 100vh;
   display: flex;
@@ -36,8 +36,8 @@ body {
 }
 
 header {
-  background: #000000; /* Verde vibrante */
-  padding: 5px 40px;   /* padding vertical reduzido */
+  background: #000000;
+  padding: 5px 40px;  
   color: white;
   text-align: center;
   font-weight: bold;
@@ -46,8 +46,8 @@ header {
   box-shadow: 0 3px 5px rgba(0,0,0,0.1);
   display: flex;
   justify-content: center;
-  align-items: center; /* centraliza verticalmente */
-  height: 120px; /* altura para conter a logo */
+  align-items: center;
+  height: 120px;
   box-sizing: border-box;
 }
 
@@ -152,7 +152,7 @@ section.contact h2 {
 }
 
 section.contact p {
-  margin: 12px 0; /* maior espaçamento vertical */
+  margin: 12px 0;
   font-size: 1.1rem;
   line-height: 1.4;
 }
@@ -189,3 +189,4 @@ footer {
     width: 90%;
   }
 }
+
